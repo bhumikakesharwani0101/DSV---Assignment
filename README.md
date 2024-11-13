@@ -58,4 +58,30 @@ Testing Set (30 samples): Used to evaluate the model's performance on new, unsee
    - Fit a linear regression model to predict Salary based on YearsExperience.
    - Evaluate the model's performance using Mean Squared Error (MSE) on the test set.
 
+**Explanation:**
+
+In this task, we'll work with a simple dataset that has two features: YearsExperience (the number of years someone has worked) and Salary (the corresponding salary for that experience). The goal is to use Linear Regression to predict the salary based on years of experience and evaluate the model's performance using Mean Squared Error (MSE).
+
+Steps to accomplish this:
+Dataset: The dataset contains two variables:
+
+YearsExperience: The number of years a person has been working.
+Salary: The salary corresponding to that experience.
+Example dataset:
+
+YearsExperience	Salary
+1	40000
+2	45000
+3	50000
+...	...
+Model: We use Linear Regression to create a model. Linear regression assumes a linear relationship between the independent variable (YearsExperience) and the dependent variable (Salary). The model aims to find the line of best fit, which minimizes the difference between predicted and actual salaries.
+
+Data Splitting: The dataset is split into a training set (for fitting the model) and a test set (for evaluating its performance). We commonly use an 80-20 or 70-30 split.
+
+Fitting the Model: The linear regression model is trained on the training set, which means it learns the relationship between the number of years worked and the salary.
+
+Prediction: The trained model is then used to predict salaries on the test set based on years of experience.
+
+Evaluation (Mean Squared Error - MSE): After prediction, we calculate the Mean Squared Error (MSE), which is a metric to evaluate the model's performance. MSE measures the average squared difference between the actual values and the predicted values. 
+
      
